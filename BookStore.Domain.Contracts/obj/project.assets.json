@@ -27,39 +27,45 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aleja\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\acollazos\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\BookStore\\BookStore.Domain.Contracts\\BookStore.Domain.Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Domain.Contracts\\BookStore.Domain.Contracts.csproj",
       "projectName": "BookStore.Domain.Contracts",
-      "projectPath": "C:\\repos\\BookStore\\BookStore.Domain.Contracts\\BookStore.Domain.Contracts.csproj",
-      "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\BookStore\\BookStore.Domain.Contracts\\obj\\",
+      "projectPath": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Domain.Contracts\\BookStore.Domain.Contracts.csproj",
+      "packagesPath": "C:\\Users\\acollazos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Domain.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\acollazos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/USPP/iSuite/_packaging/iSuite/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\repos\\BookStore\\BookStore.Domain.Entities\\BookStore.Domain.Entities.csproj": {
-              "projectPath": "C:\\repos\\BookStore\\BookStore.Domain.Entities\\BookStore.Domain.Entities.csproj"
+            "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Domain.Entities\\BookStore.Domain.Entities.csproj": {
+              "projectPath": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Domain.Entities\\BookStore.Domain.Entities.csproj"
             }
           }
         }
@@ -88,7 +94,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -30,8 +30,20 @@ namespace BookStore.Services.Api.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<Book>> GetBook(string id)
         {
-            var result = await _bookRepository.GetBookByIdAsync(id);
-            return Ok(result);
+            try
+            {
+                var result = await _bookRepository.GetBookByIdAsync(id);
+
+                if (result is null)
+                    return NotFound();
+
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }            
         }
 
 

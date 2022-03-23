@@ -477,10 +477,25 @@
       },
       "BooksStore.Infraestructure.DataAccess/1.0.0": {
         "dependencies": {
+          "BookStore.Domain.Contracts": "1.0.0",
+          "BookStore.Domain.Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
         },
         "runtime": {
           "BooksStore.Infraestructure.DataAccess.dll": {}
+        }
+      },
+      "BookStore.Domain.Contracts/1.0.0": {
+        "dependencies": {
+          "BookStore.Domain.Entities": "1.0.0"
+        },
+        "runtime": {
+          "BookStore.Domain.Contracts.dll": {}
+        }
+      },
+      "BookStore.Domain.Entities/1.0.0": {
+        "runtime": {
+          "BookStore.Domain.Entities.dll": {}
         }
       }
     }
@@ -828,6 +843,16 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "BooksStore.Infraestructure.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookStore.Domain.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookStore.Domain.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

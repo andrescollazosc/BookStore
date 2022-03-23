@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hVevBbqspcUa5bVAXYZK9cIPkqh1hqXjbXjVRVMnIzRqE5w3NSrI3mlIbdyy13SLw5ByfHiqTi/Ejc+azy1C8Q==",
+  "dgSpecHash": "ThV+8/od8RwWQTPb5/tfhVK9C3qL0qQ/kljPeEJHMi5+DJ0khQSDfGY6pYHnLze1ZY7Wkz6WfCG3KGvRSTlsMg==",
   "success": true,
-  "projectFilePath": "C:\\repos\\BookStore\\BookStore.Domain.Contracts\\BookStore.Domain.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Domain.Contracts\\BookStore.Domain.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

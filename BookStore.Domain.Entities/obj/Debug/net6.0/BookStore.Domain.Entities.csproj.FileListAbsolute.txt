@@ -10,3 +10,15 @@ C:\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.E
 C:\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\refint\BookStore.Domain.Entities.dll
 C:\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.Entities.pdb
 C:\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\ref\BookStore.Domain.Entities.dll
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\bin\Debug\net6.0\BookStore.Domain.Entities.deps.json
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\bin\Debug\net6.0\BookStore.Domain.Entities.dll
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\bin\Debug\net6.0\ref\BookStore.Domain.Entities.dll
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\bin\Debug\net6.0\BookStore.Domain.Entities.pdb
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.Entities.csproj.AssemblyReference.cache
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.Entities.AssemblyInfoInputs.cache
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.Entities.AssemblyInfo.cs
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.Entities.dll
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\ref\BookStore.Domain.Entities.dll
+C:\Users\acollazos\source\repos\BookStore\BookStore.Domain.Entities\obj\Debug\net6.0\BookStore.Domain.Entities.pdb
