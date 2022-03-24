@@ -1,6 +1,5 @@
 using BooksStore.Infraestructure.DataAccess;
-using BooksStore.Infraestructure.DataAccess.Repositories;
-using BookStore.Domain.Contracts;
+using BookStore.Services.Api.IoC;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +12,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.DependencyInjection();
 
 var app = builder.Build();
 

@@ -1,5 +1,21 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "5d81ecf1-644d-44f1-8910-0dfd8ddfbc0d": {
+      "ProjectGuid": "5d81ecf1-644d-44f1-8910-0dfd8ddfbc0d",
+      "DisplayName": "BookStore.Services.Api",
+      "ColorIndex": 0
+    },
+    "c004cd33-ca6d-474b-923a-26242a2642aa": {
+      "ProjectGuid": "c004cd33-ca6d-474b-923a-26242a2642aa",
+      "DisplayName": "BooksStore.Infraestructure.DataAccess",
+      "ColorIndex": 1
+    },
+    "3f91d900-0fda-4f95-8570-b032ef04faf7": {
+      "ProjectGuid": "3f91d900-0fda-4f95-8570-b032ef04faf7",
+      "DisplayName": "BookStore.Domain.Contracts",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
 }

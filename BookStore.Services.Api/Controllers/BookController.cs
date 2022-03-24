@@ -9,9 +9,9 @@ namespace BookStore.Services.Api.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly IBookRepository _bookRepository;
+        private readonly IGenericRepository<Book> _bookRepository;
 
-        public BookController(IBookRepository bookRepository)
+        public BookController(IGenericRepository<Book> bookRepository)
         {
             _bookRepository = bookRepository;
         }
@@ -19,7 +19,7 @@ namespace BookStore.Services.Api.Controllers
         [HttpGet("books")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<List<Book>>> GetBooks() {
-            var result = await _bookRepository.GetAllBooksAsync();
+            var result = await _bookRepository.GetAllAsync();
 
             return Ok(result);
         }
@@ -32,7 +32,7 @@ namespace BookStore.Services.Api.Controllers
         {
             try
             {
-                var result = await _bookRepository.GetBookByIdAsync(id);
+                var result = await _bookRepository.GetByIdAsync(id);
 
                 if (result is null)
                     return NotFound();

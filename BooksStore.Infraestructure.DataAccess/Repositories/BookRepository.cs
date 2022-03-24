@@ -1,15 +1,10 @@
 ﻿using BookStore.Domain.Contracts;
 using BookStore.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BooksStore.Infraestructure.DataAccess.Repositories
 {
-    public class BookRepository : IBookRepository
+    public class BookRepository : IGenericRepository<Book>
     {
         private readonly bookDBContext _context;
 
@@ -18,48 +13,49 @@ namespace BooksStore.Infraestructure.DataAccess.Repositories
             _context = context;
         }
 
-        public async Task<List<Book>> GetAllBooksAsync()
+        public async Task<bool> AddAsync(Book entity)
         {
-            var books = await _context.Books.Where(x => x.Active == true).ToListAsync();
-            return books;
-        }
-
-        public async Task<Book> GetBookByIdAsync(string id)
-        {
-            var book = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);  
-            return book;
-        }
-        
-        public async Task<bool> AddBookAsync(Book book)
-        {
-            book.Active = true;
-            book.Id = Guid.NewGuid().ToString();
-            await _context.Books.AddAsync(book);
+            entity.Active = true;
+            entity.Id = Guid.NewGuid().ToString();
+            await _context.Books.AddAsync(entity);
 
             return _context.SaveChanges() > 0 ? true : false;
         }
 
-        public async Task<bool> UpdateBookAsync(Book book)
+        public async Task<bool> DeleteAsync(string id)
         {
-            var result = await _context.Books.FirstOrDefaultAsync(x => x.Id == book.Id);
-
-            result.Isbn = book.Isbn;
-            result.Name = book.Name;
-            result.Author = book.Author;
-            result.CategoryId= book.CategoryId;
-            result.PublicationDate = book.PublicationDate;
-
-            return await _context.SaveChangesAsync() > 0 ? true: false;
-            
-        }
-
-        public async Task<bool> DeleteBookAsync(string id)
-        {
-            var result = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);   
+            var result = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
 
             result.Active = false;
 
             return await _context.SaveChangesAsync() > 0 ? true : false;
         }
+
+        public async Task<IEnumerable<Book>> GetAllAsync()
+        {
+            var books = await _context.Books.Where(x => x.Active == true).ToListAsync();
+
+            return books;
+        }
+
+        public async Task<Book> GetByIdAsync(string id)
+        {
+            var book = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
+            return book;
+        }
+
+        public async Task<bool> UpdateAsync(Book entity)
+        {
+            var result = await _context.Books.FirstOrDefaultAsync(x => x.Id == entity.Id);
+
+            result.Isbn = entity.Isbn;
+            result.Name = entity.Name;
+            result.Author = entity.Author;
+            result.CategoryId = entity.CategoryId;
+            result.PublicationDate = entity.PublicationDate;
+
+            return await _context.SaveChangesAsync() > 0 ? true : false;
+        }
+
     }
 }
