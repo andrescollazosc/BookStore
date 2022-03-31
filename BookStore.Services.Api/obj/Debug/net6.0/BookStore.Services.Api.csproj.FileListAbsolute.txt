@@ -128,3 +128,7 @@ C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Api\obj\Debug\net6.
 C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Api\obj\Debug\net6.0\ref\BookStore.Services.Api.dll
 C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Api\obj\Debug\net6.0\BookStore.Services.Api.pdb
 C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Api\obj\Debug\net6.0\BookStore.Services.Api.genruntimeconfig.cache
+C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Api\bin\Debug\net6.0\BookStore.Services.Dto.dll
+C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Api\bin\Debug\net6.0\BookStore.Services.Dto.pdb

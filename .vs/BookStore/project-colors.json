@@ -15,7 +15,12 @@
       "ProjectGuid": "3f91d900-0fda-4f95-8570-b032ef04faf7",
       "DisplayName": "BookStore.Domain.Contracts",
       "ColorIndex": 2
+    },
+    "d9d835e9-8b5e-4f59-93ac-320238776dcc": {
+      "ProjectGuid": "d9d835e9-8b5e-4f59-93ac-320238776dcc",
+      "DisplayName": "BookStore.Domain.Entities",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

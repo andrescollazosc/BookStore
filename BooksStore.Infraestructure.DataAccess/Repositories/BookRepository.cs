@@ -13,13 +13,15 @@ namespace BooksStore.Infraestructure.DataAccess.Repositories
             _context = context;
         }
 
-        public async Task<bool> AddAsync(Book entity)
+        public async Task<Book> AddAsync(Book entity)
         {
             entity.Active = true;
             entity.Id = Guid.NewGuid().ToString();
+            entity.PublicationDate = DateTime.Now;
+
             await _context.Books.AddAsync(entity);
 
-            return _context.SaveChanges() > 0 ? true : false;
+            return _context.SaveChanges() > 0 ? entity : new Book();
         }
 
         public async Task<bool> DeleteAsync(string id)
@@ -44,7 +46,7 @@ namespace BooksStore.Infraestructure.DataAccess.Repositories
             return book;
         }
 
-        public async Task<bool> UpdateAsync(Book entity)
+        public async Task<Book> UpdateAsync(Book entity)
         {
             var result = await _context.Books.FirstOrDefaultAsync(x => x.Id == entity.Id);
 
@@ -54,7 +56,7 @@ namespace BooksStore.Infraestructure.DataAccess.Repositories
             result.CategoryId = entity.CategoryId;
             result.PublicationDate = entity.PublicationDate;
 
-            return await _context.SaveChangesAsync() > 0 ? true : false;
+            return await _context.SaveChangesAsync() > 0 ? result : new Book();
         }
 
     }
