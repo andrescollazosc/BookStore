@@ -52,6 +52,7 @@ namespace BooksStore.Infraestructure.DataAccess.Repositories
 
             result.Isbn = entity.Isbn;
             result.Name = entity.Name;
+            result.PathImage = entity.PathImage;
             result.Author = entity.Author;
             result.CategoryId = entity.CategoryId;
             result.PublicationDate = entity.PublicationDate;

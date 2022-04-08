@@ -11,6 +11,7 @@ namespace BookStore.Domain.Entities
         public string? Isbn { get; set; }
         public string? Author { get; set; }
         public DateTime? PublicationDate { get; set; }
+        public string? PathImage { get; set; }
         public bool? Active { get; set; }
 
         public virtual Category? Category { get; set; }

@@ -14,5 +14,6 @@ namespace BookStore.Services.Dto.Book
         public string? Isbn { get; set; }
 
         public string? Author { get; set; }
+        public string? PathImage { get; set; }
     }
 }

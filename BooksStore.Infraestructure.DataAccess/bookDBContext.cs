@@ -51,6 +51,10 @@ namespace BooksStore.Infraestructure.DataAccess
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
+                entity.Property(e => e.PathImage)
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.PublicationDate).HasColumnType("datetime");
 
                 entity.HasOne(d => d.Category)
