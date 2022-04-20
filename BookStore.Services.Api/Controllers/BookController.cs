@@ -22,10 +22,18 @@ namespace BookStore.Services.Api.Controllers
 
         [HttpGet("books")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<IEnumerable<ReadDto>>> GetBooks() {
-            var result = await _bookRepository.GetAllAsync();
+            try
+            {
+                var result = await _bookRepository.GetAllAsync();
 
-            return result.Select(book => _mapper.Map<ReadDto>(book)).ToList();
+                return result.Select(book => _mapper.Map<ReadDto>(book)).ToList();
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
 
 
@@ -53,7 +61,7 @@ namespace BookStore.Services.Api.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<ReadDto>> Add(CreateDto createDto)
+        public async Task<ActionResult<ReadDto>> Add([FromBody] CreateDto createDto)
         {
             try
             {

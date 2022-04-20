@@ -16,11 +16,21 @@ namespace BookStore.Services.Api.Controllers
         }
 
         [HttpGet("categories")]
-        public async Task<IEnumerable<Category>> GetAll()
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<IEnumerable<Category>>> GetAll()
         {
-            var result = await _categoryRepository.GetAllAsync();
+            try
+            {
+                var result = await _categoryRepository.GetAllAsync();
 
-            return result;
+                return result.ToList();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
 
         [HttpGet("category/{id}")]

@@ -9,6 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<bookDBContext>(options => 
     options.UseSqlServer(builder.Configuration["connectionStrings:bookDB"]));
 
+builder.Services.AddControllers(config => {
+    config.ReturnHttpNotAcceptable = true;
+}).AddXmlDataContractSerializerFormatters();
+
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
