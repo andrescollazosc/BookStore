@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BooksStore.Infraestructure.DataAccess",
+    "\\BooksStore.Infraestructure.DataAccess\\Repositories"
   ],
+  "SelectedNode": "\\BookStore.sln",
   "PreviewInSolutionExplorer": false
 }

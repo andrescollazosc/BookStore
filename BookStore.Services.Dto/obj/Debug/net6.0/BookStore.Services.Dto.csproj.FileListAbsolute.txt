@@ -10,3 +10,15 @@ C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Dto\obj\Debug\net6.
 C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.dll
 C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\ref\BookStore.Services.Dto.dll
 C:\Users\acollazos\source\repos\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.pdb
+C:\repos\Personal\BookStore\BookStore.Services.Dto\bin\Debug\net6.0\BookStore.Services.Dto.deps.json
+C:\repos\Personal\BookStore\BookStore.Services.Dto\bin\Debug\net6.0\BookStore.Services.Dto.dll
+C:\repos\Personal\BookStore\BookStore.Services.Dto\bin\Debug\net6.0\ref\BookStore.Services.Dto.dll
+C:\repos\Personal\BookStore\BookStore.Services.Dto\bin\Debug\net6.0\BookStore.Services.Dto.pdb
+C:\repos\Personal\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.csproj.AssemblyReference.cache
+C:\repos\Personal\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Personal\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.AssemblyInfoInputs.cache
+C:\repos\Personal\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.AssemblyInfo.cs
+C:\repos\Personal\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.csproj.CoreCompileInputs.cache
+C:\repos\Personal\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.dll
+C:\repos\Personal\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\ref\BookStore.Services.Dto.dll
+C:\repos\Personal\BookStore\BookStore.Services.Dto\obj\Debug\net6.0\BookStore.Services.Dto.pdb

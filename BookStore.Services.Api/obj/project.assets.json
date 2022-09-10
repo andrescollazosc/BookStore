@@ -2145,27 +2145,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acollazos\\.nuget\\packages\\": {},
+    "C:\\Users\\alejandro.martnez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Services.Api\\BookStore.Services.Api.csproj",
+      "projectUniqueName": "C:\\repos\\Personal\\BookStore\\BookStore.Services.Api\\BookStore.Services.Api.csproj",
       "projectName": "BookStore.Services.Api",
-      "projectPath": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Services.Api\\BookStore.Services.Api.csproj",
-      "packagesPath": "C:\\Users\\acollazos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Services.Api\\obj\\",
+      "projectPath": "C:\\repos\\Personal\\BookStore\\BookStore.Services.Api\\BookStore.Services.Api.csproj",
+      "packagesPath": "C:\\Users\\alejandro.martnez\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\Personal\\BookStore\\BookStore.Services.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\acollazos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alejandro.martnez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -2175,18 +2173,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/USPP/iSuite/_packaging/iSuite/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\acollazos\\source\\repos\\BookStore\\BooksStore.Infraestructure.DataAccess\\BooksStore.Infraestructure.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BooksStore.Infraestructure.DataAccess\\BooksStore.Infraestructure.DataAccess.csproj"
+            "C:\\repos\\Personal\\BookStore\\BooksStore.Infraestructure.DataAccess\\BooksStore.Infraestructure.DataAccess.csproj": {
+              "projectPath": "C:\\repos\\Personal\\BookStore\\BooksStore.Infraestructure.DataAccess\\BooksStore.Infraestructure.DataAccess.csproj"
             },
-            "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Services.Dto\\BookStore.Services.Dto.csproj": {
-              "projectPath": "C:\\Users\\acollazos\\source\\repos\\BookStore\\BookStore.Services.Dto\\BookStore.Services.Dto.csproj"
+            "C:\\repos\\Personal\\BookStore\\BookStore.Services.Dto\\BookStore.Services.Dto.csproj": {
+              "projectPath": "C:\\repos\\Personal\\BookStore\\BookStore.Services.Dto\\BookStore.Services.Dto.csproj"
             }
           }
         }
